@@ -1,7 +1,7 @@
 # Informe de análisis de ventas
 
 ## Lista de ventas original
-Registro crudo de las ventas generadas como ejemplo:
+Registro crudo de las ventas generadas como ejemplo (puede encontrarse en el .py también):
 
 * 2026-04-10 | Manaos | 10 uds | $1.50 c/u
 * 2026-04-11 | Cunnington | 5 uds | $1.80 c/u
@@ -17,12 +17,12 @@ Registro crudo de las ventas generadas como ejemplo:
 ---
 
 ## Ingresos totales generados
-La sumatoria de todas las ventas dio bruto total de **$100.70**.
+* La sumatoria de todas las ventas dio bruto total de **$100.70**.
 
 ---
 
 ## Producto más vendido
-El producto mas vendido fue **Manaos**, con una cantidad total vendida de **30 unidades**.
+* El producto mas vendido fue **Manaos**, con una cantidad total vendida de **30 unidades**.
 
 ---
 
@@ -52,7 +52,7 @@ Agrupados por fecha de menos recientes a más recientes:
 ---
 
 ## Resumen de ventas por producto
-Formateado, el detalle de cantidades, ingresos totales y el precio promedio obtenido de las ventas.
+* Formateado, el detalle de cantidades, ingresos totales y el precio promedio obtenido de las ventas.
 
 | Producto | Cantidad total | Ingresos totales | Precio promedio |
 | :--- | :---: | :---: | :---: |
@@ -70,10 +70,10 @@ Formateado, el detalle de cantidades, ingresos totales y el precio promedio obte
 
 Para llegar a estos resultados, el script de python se programó procesando los datos con una logica de etapas:
 
-**Estructuracion de datos con diccionarios:** En lugar de usar listas simples, se uso diccionarios porque permiten indexar la información por el nombre del producto, lo cual facilita la búsqueda y evita tener datos duplicados por ahí.
-**Acumulaciones usando get:** Durante la lectura de la lista de ventas, utilicé el método .get porque permite centralizar todas las ventas sin excederse de pasadas (ineficientes).
-**Calculo de metricas derivadas:** Una vez hecho el "maestro", realicé una segunda iteración para calcular el promedio de venta de cada articulo y aplicar una sobrescritura que pase los datos de lista a tupla que es fija y más segura para el reporte final.
-**Consolidado final:** En resumen_ventas, al estar anidados los diccionarios dentro de otros, cada producto tiene ahora su propia pequeña ficha tecnica con toda la info ya masticada y lista para ser presentada en este informe.
+* **Estructuracion de datos con diccionarios:** En lugar de usar listas simples, se uso diccionarios porque permiten indexar la información por el nombre del producto, lo cual facilita la búsqueda y evita tener datos duplicados por ahí.
+* **Acumulaciones usando get:** Durante la lectura de la lista de ventas, utilicé el método .get porque permite centralizar todas las ventas sin excederse de pasadas (ineficientes).
+* **Calculo de metricas derivadas:** Una vez hecho el "maestro", realicé una segunda iteración para calcular el promedio de venta de cada articulo y aplicar una sobrescritura que pase los datos de lista a tupla que es fija y más segura para el reporte final.
+* **Consolidado final:** En resumen_ventas, al estar anidados los diccionarios dentro de otros, cada producto tiene ahora su propia pequeña ficha tecnica con toda la info ya masticada y lista para ser presentada en este informe.
 
 ---
 
