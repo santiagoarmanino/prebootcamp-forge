@@ -1,0 +1,39 @@
+- RESUMEN FINAL DE VENTAS:
+Producto: Manaos
+  Cantidad Total: 30
+  Ingresos Totales: $43.80
+  Precio Promedio: $1.46
+--------------------------
+Producto: Cunnington
+  Cantidad Total: 11
+  Ingresos Totales: $19.80
+  Precio Promedio: $1.80
+--------------------------
+Producto: Coca-Cola
+  Cantidad Total: 3
+  Ingresos Totales: $7.50
+  Precio Promedio: $2.50
+--------------------------
+Producto: Pepsi
+  Cantidad Total: 4
+  Ingresos Totales: $8.80
+  Precio Promedio: $2.20
+--------------------------
+Producto: Fanta
+  Cantidad Total: 2
+  Ingresos Totales: $4.00
+  Precio Promedio: $2.00
+--------------------------
+Producto: Sprite
+  Cantidad Total: 3
+  Ingresos Totales: $6.30
+  Precio Promedio: $2.10
+--------------------------
+Producto: Seven Up
+  Cantidad Total: 5
+  Ingresos Totales: $10.50
+  Precio Promedio: $2.10
+--------------------------
+
+
+** Process exited - Return Code: 0 **
